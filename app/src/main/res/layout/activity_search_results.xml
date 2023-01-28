@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+
+    tools:context=".SearchResults">
+    <ImageView
+        android:id="@+id/imageresult3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:src="@drawable/admin"
+        android:alpha="0.2"
+        android:layout_centerInParent="true"
+
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/search_elements"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:background="#00FFFFFF"
+
+
+        android:foregroundGravity="center" />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layoutDirection="ltr"
+        android:background="@drawable/shadow2"
+        android:gravity="center"
+
+
+        android:orientation="horizontal">
+        <TextView
+            android:shadowColor="#A44548ED"
+            android:id="@+id/textViewtotals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Taxes : "
+            android:textColor="#DC000000"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textDirection="ltr"
+            android:textSize="20sp" />
+        <TextView
+            android:shadowColor="#BC000000"
+            android:id="@+id/textViewtotal"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="total"
+            android:textColor="#BC000000"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textDirection="ltr"
+            android:textSize="25sp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rl"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_marginHorizontal="5dp"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ImageView
+        android:id="@+id/mm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.1"
+        android:src="@drawable/traffic"/>
+    <GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:rowCount="6"
+        android:columnCount="3"
+        android:background = "@drawable/card"
+        android:layoutDirection="ltr"
+
+        android:layout_marginVertical="5dp"
+        android:layout_alignParentLeft="true"
+        android:paddingHorizontal="10dp"
+
+
+        >
+        <TextView
+            android:id="@+id/main_id"
+            android:layout_marginVertical="15dp"
+            android:layout_marginHorizontal="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Violation Id :"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#CCffffff"
+            android:layout_alignParentRight="true"
+
+            />
+
+
+
+        <TextView
+            android:id="@+id/main_date"
+
+            android:layout_marginVertical="15dp"
+            android:layout_marginHorizontal="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Violation date :"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#CCffffff"
+            android:layout_alignParentRight="true"
+
+            />
+
+
+        <TextView
+            android:id="@+id/main_location"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="15dp"
+            android:text="- Violation Type :"
+            android:textColor="#CCffffff"
+            android:textSize="15sp"
+            android:textStyle="bold"
+
+            />
+
+
+        <TextView
+            android:id="@+id/main_paid"
+
+            android:layout_marginVertical="15dp"
+            android:layout_marginHorizontal="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Payment status :"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#CCffffff"
+            android:layout_alignParentRight="true"
+
+            />
+        <Space
+            android:layout_height="wrap_content"
+            android:layout_width="10dp"
+            android:layout_rowWeight="1"
+
+            />
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:src="@drawable/circle"
+                android:layout_gravity="center"
+                />
+            <TextView
+
+                android:layout_marginVertical="15dp"
+                android:layout_marginHorizontal="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="click for more details."
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="#AAffffff"
+                android:layout_alignParentRight="true"
+                  android:layout_gravity="center"
+                />
+        </LinearLayout>
+        <Space
+        android:layout_height="wrap_content"
+        android:layout_width="10dp"
+        android:layout_rowWeight="1"
+
+        />
+
+        <Space
+            android:layout_height="wrap_content"
+            android:layout_width="10dp"
+            android:layout_rowWeight="1"
+
+            />
+        <Space
+            android:layout_height="wrap_content"
+            android:layout_width="10dp"
+            android:layout_rowWeight="1"
+
+            />
+        <Space
+            android:layout_height="wrap_content"
+            android:layout_width="10dp"
+            android:layout_rowWeight="1"
+
+            />
+        <Space
+            android:layout_height="wrap_content"
+            android:layout_width="10dp"
+            android:layout_rowWeight="1"
+
+            />
+        <Space
+            android:layout_height="wrap_content"
+            android:layout_width="10dp"
+            android:layout_rowWeight="1"
+
+            />
+
+
+        <TextView
+            android:id="@+id/main_id_value"
+
+            android:layout_marginVertical="15dp"
+            android:layout_marginHorizontal="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="111111"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#9C000000"
+            android:layout_alignParentLeft="true"
+
+            />
+        <TextView
+            android:id="@+id/main_date_value"
+
+            android:layout_marginVertical="15dp"
+            android:layout_marginHorizontal="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12-12-2021"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#9C000000"
+            android:layout_alignParentLeft="true"
+
+            />
+        <TextView
+            android:id="@+id/main_location_value"
+
+            android:layout_marginVertical="15dp"
+            android:layout_marginHorizontal="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Damascus"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#9C000000"
+            android:layout_alignParentLeft="true"
+
+            />
+        <TextView
+            android:id="@+id/main_paid_value"
+
+            android:layout_marginVertical="15dp"
+            android:layout_marginHorizontal="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#9C000000"
+            android:layout_alignParentLeft="true"
+
+            />
+        <Space
+            android:layout_height="wrap_content"
+            android:layout_width="10dp"
+            android:layout_rowWeight="1"
+
+            />
+        <Space
+            android:layout_height="wrap_content"
+            android:layout_width="10dp"
+            android:layout_rowWeight="1"
+
+            />
+
+
+
+    </GridLayout>
+
+</RelativeLayout>

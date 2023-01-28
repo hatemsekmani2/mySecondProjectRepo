@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    >
+    <ImageView
+        android:id="@+id/imagemain4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:src="@drawable/traffic"
+        android:alpha="0.2"
+        android:layout_centerInParent="true"
+
+        />
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:background="#6FFFFFFF"
+        android:textAlignment="center">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/grid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_weight="1"
+                android:layoutDirection="rtl"
+
+
+
+                android:layout_marginVertical="5dp"
+                android:columnCount="3"
+
+                android:orientation="vertical"
+                android:paddingHorizontal="20dp"
+                android:rowCount="4"
+                android:textAlignment="center"
+
+
+                >
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+
+                    />
+
+
+                <TextView
+                    android:id="@+id/details_id"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:textDirection="ltr"
+
+
+                    android:layout_marginVertical="10dp"
+                    android:text="Violation Date : "
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:id="@+id/details_id_value"
+                    android:textDirection="ltr"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="20dp"
+                    android:text="111111"
+
+                    android:textColor="#9C000000"
+                    android:textSize="15sp"
+
+                    />
+
+
+                <View
+                    android:id="@+id/divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?android:attr/listDivider" />
+
+                <TextView
+                    android:id="@+id/details_date"
+                    android:textDirection="ltr"
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_marginVertical="10dp"
+                    android:text="Violation Location : "
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:textStyle="bold"
+
+                    />
+
+
+                <TextView
+                    android:id="@+id/details_date_value"
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="20dp"
+                    android:text="12-12-2021"
+                    android:textColor="#9C000000"
+                    android:textSize="15sp"
+                    android:textDirection="ltr"
+
+                    />
+
+                <View
+                    android:id="@+id/divider2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?android:attr/listDivider" />
+
+                <TextView
+                    android:id="@+id/details_location"
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textDirection="ltr"
+
+                    android:layout_marginVertical="10dp"
+                    android:text="Violation Type : "
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:id="@+id/details_location_value"
+                    android:textDirection="ltr"
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="20dp"
+                    android:text="Damascus"
+                    android:textColor="#9C000000"
+                    android:textSize="15sp"
+
+                    />
+
+                <View
+                    android:id="@+id/divider3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?android:attr/listDivider" />
+
+                <TextView
+                    android:id="@+id/details_paid"
+                    android:textDirection="ltr"
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:text="Violation Tax : "
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:id="@+id/details_paid_value"
+                    android:textDirection="ltr"
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="20dp"
+                    android:text="Yes"
+                    android:textColor="#9C000000"
+                    android:textSize="15sp"
+
+                    />
+
+                <View
+                    android:id="@+id/divider4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?android:attr/listDivider" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/button_pay"
+            android:layout_width="match_parent"
+            android:layout_weight="10"
+            android:layout_height="match_parent"
+            android:background="#81E6564E"
+            android:paddingHorizontal="50dp"
+            android:layout_marginHorizontal="2dp"
+            android:shadowColor="#6A020202"
+            android:text="Pay Now!"
+            android:textColor="#ffffff"
+            android:onClick="goPayment"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/progressBar_payviolation"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#9Affffff"
+
+
+        >
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+        <ProgressBar
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#9Affffff"
+
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

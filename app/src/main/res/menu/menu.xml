@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add"
+        android:title="Add+"
+        android:icon="@drawable/addnow"
+        android:onClick="NavigateToAdd"
+        />
+    <item
+        android:id="@+id/cross"
+        android:title="CrossOut Vehicle"
+        android:icon="@drawable/stop"
+        android:onClick="Cross"
+        />
+    <item
+        android:id="@+id/update"
+        android:title="Update"
+        android:icon="@drawable/update"
+        android:onClick="update"
+        />
+</menu>
